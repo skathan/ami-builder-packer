@@ -21,6 +21,8 @@
       - 1.1.19
     # Password reuse limit task fails due to AttributionError in Ansible code; skipping
       - 5.3.3
+    # Pass max set
+    cis_pass_max_days: 30
     # Cloudwatch Logs Role configuration
     logs:
       - file: /var/log/messages
